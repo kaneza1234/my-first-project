@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display : fixed;
+    justify-content:space-around ;
+    text-align: right;
+    
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .welcome {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .view-work,
+  .hire-me {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .view-work:hover,
+  .hire-me:hover {
+    background-color: #555;
+  }
+  
+  .about,
+  .services,
+  .portfolio,
+  .blog,
+  .contact {
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  }
